@@ -1,0 +1,71 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   background-image: url(img/raccolta\ rifiuti.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+h1 {
+   text-align: center;
+   color: #000000;
+   margin-top: 20px;
+}
+
+p {
+   color: #000000;
+   margin-bottom: 10px;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 5px;
+}
+
+a {
+   display: inline-block;
+   text-align: center;
+   background-color: #228bb4;
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   margin: 20px auto;
+   width: 150px;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+a:hover {
+   background-color: #467499;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+   margin-top: 0;
+}
+
+.container p:first-child {
+   margin-top: 20px;
+}
+
+.container p:last-child {
+   margin-bottom: 20px;
+}
+.testoingrassetto {
+   font-weight: bold;
+}
